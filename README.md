@@ -1,5 +1,5 @@
-# Jagornet DHCP Server
-An open source DHCPv4/DHCPv6 Server in Java
+# Jagornet-redis DHCP Server
+一个开源的ipv4/ipv6服务器，以redis做为数据库存储xml信息
 
 ## Description
 Jagornet DHCP Server is an open source, standards compliant Dynamic Host Configuration Protocol Server for IPv4 and IPv6.
@@ -13,6 +13,8 @@ Jagornet DHCP Server is an open source, standards compliant Dynamic Host Configu
 * Highly scalable, multi-threaded architecture
 * Dynamic DNS updates
 * IPv6 Prefix Delegation
+基于jagornet DHCP的基础上进行的修改，启动项，文档等与jagornet基本一致
+以下是jagornet的链接
 
 ## Documentation
 [Jagornet DHCP Server Community Edition v2.0.5 User Guide](http://www.jagornet.com/products/dhcp-server/docs)
@@ -25,3 +27,6 @@ Jagornet DHCP Server is an open source, standards compliant Dynamic Host Configu
 
 ## Website
 [Visit us at Jagornet Technologies](http://www.jagornet.com)
+
+关于jagornet-WEB端管理
+持续更新...
