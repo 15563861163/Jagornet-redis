@@ -1,5 +1,6 @@
 # Jagornet-redis DHCP Server
-一个开源的ipv4/ipv6服务器，以redis做为数据库存储xml信息
+一个开源的ipv4/ipv6服务器，以redis做为数据库存储xml信息，完成分布式DHCP分布式服务器，以redis提供锁，提供服务器文件储存，提供地址池存储分配功能。
+其他的文档信息可以查看jagornet文档。
 
 ## Features
 * IPv6 Phase II Certified DHCPv6 Server
@@ -24,8 +25,7 @@
 ## User Forum
 [Jagornet DHCP Server Users Forum](https://groups.google.com/forum/#!forum/jagornet-dhcpv6-users)
 
-## Website
-[Visit us at Jagornet Technologies](http://www.jagornet.com)
+## Jagornet-WEB
+关于jagornet-WEB端管理，用以简单的管理redis内存储的信息。上传DHCP服务器配置文件，查看redis中地址分配情况，可以手动删除ip分配信息，正在使用的地址池信息等
 
-关于jagornet-WEB端管理
 持续更新...
